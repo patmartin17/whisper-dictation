@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": "icon128.png",
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "content.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "https://chat.openai.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Prompt with your voice to ChatGPT in your Chrome browser using Whisper API with a button click.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "64": "icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAncoiJV9iM2md+oN8lO5HcqXFwj1dNWTgxmZCcL8yX9DFzq+KH4yFHry7mPo6+e2t+IzMkgtUWbPZhsnkiEsy3e7W84/qoca6D0YccWCxmut0bOTIZbFajQCcaQlmUBiIsOOrolwS7m9UMK/oO+unM45PWiSnM4boUHj8okmLrExOjVi4gtptdZaStbD5IwFq+1uHONqnrkIENNDxpFGa/jRK2t2VkM632qFmwqmqd92qCHjebqlNqc49NqzTJbtdNwvyQOQTlMFozf4uaXUMdI60wnG6vbu/HDGzi1cHq0uuH542qUimkxseg2BFmRRumZWGCCvRaATQ8ouOq0esiQIDAQAB",
+   "manifest_version": 3,
+   "name": "Whisper to ChatGPT",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.7"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0091669.css",
+    "main.js": "/static/js/main.c57ef788.js",
+    "static/media/UbuntuMono-Regular.ttf": "/static/media/UbuntuMono-Regular.9fa7d55c51063608f793.ttf",
+    "index.html": "/index.html",
+    "main.b0091669.css.map": "/static/css/main.b0091669.css.map",
+    "main.c57ef788.js.map": "/static/js/main.c57ef788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0091669.css",
+    "static/js/main.c57ef788.js"
+  ]
+}
